@@ -1,75 +1,101 @@
-- 👋 Hi, I’m @Chanikya5793
-<!---
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Hi, I'm Chanakya Thotakura 👋
 
+**MS Applied Computer Science @ Northwest Missouri State University, Maryville, MO**
 
-Chanikya5793/Chanikya5793 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Full-stack developer and builder focused on shipping reliable, well-documented systems. I work across mobile, web, and infrastructure — from React Native apps with real-time features to self-hosted DevOps stacks. Currently seeking **Summer 2026 internships** in software engineering.
 
-# Hi, I’m Chanakya Thotakura
+📧 chanikya1@icloud.com &nbsp;|&nbsp; 📍 Maryville, MO &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/chanikya6163) &nbsp;|&nbsp; 🌐 [Visu-Net Live](https://nnv.chanakyachowdary.in)
 
-Driven builder with a blend of software engineering, applied ML, and clean operations. Focused on shipping small, reliable systems and documenting them well. Based in Maryville, MO.
+---
 
-- Email: **chanikya1@icloud.com**
-- Interests:  **applied computer vision, automation, event ops tooling, student services, travel routing, gaming**
+## 🚀 Featured Projects
 
-## What I’m working on
+### [SplitCircle](https://github.com/Chanikya5793/SplitCircle) — Expense Splitting & Social App
+> **React Native · Expo · TypeScript · Firebase · WebRTC · LiveKit · Google Maps**
 
-- Hardening a Flutter + Firebase health records app with role-based access and structured audit trails
-- Iterating YOLOv8 pipelines on custom datasets, tuning NMS and evaluating precision, recall, F1, and accuracy
-- Containerized workflows and reverse proxy setups for small services behind Nginx
+- Group expense tracking with equal/custom splits, receipt uploads, and balance settlements
+- Real-time 1:1 and group chat (Firestore listeners, media uploads, offline message queueing)
+- Audio/video calls via WebRTC + LiveKit with Firestore signaling
+- FCM push notifications, offline-first architecture with Firestore persistence
+- Google OAuth + Email/Password auth, dark mode, recurring bills, OCR receipt scanning
+- 191 commits · 15 branches · actively developed
 
-## Highlights
+### [Visu-Net](https://github.com/Chanikya5793/visu-net) — Neural Network Visualization Tool 🌐 [Live](https://nnv.chanakyachowdary.in)
+> **React · TypeScript · MIT License**
 
-- Built a secure Flutter/Firebase app for medical records with role-based access control and mobile-first UX
-- Trained YOLOv8 models for density estimation on custom soldier/tank datasets, with data curation and model evaluation
-- Led front-of-house operations and social media for a two-day technocultural fest, improving attendee flow and handoffs
-- Supported community-facing events with courteous assistance, checklists, and tidy, safe spaces
+- Interactive drag-and-drop neural network architecture builder
+- Real-time training visualization, weight distribution, activation patterns, loss landscape
+- Customizable training speed, layer-wise parameter tuning, batch size adjustment
+- 23 commits · deployed to production
 
-## Toolbox
+### [MEDOTG](https://github.com/Chanikya5793/medotg) — Dental Record Management App
+> **Flutter · Dart · Firebase**
 
-- Languages: **Python, Java, C, C++, JavaScript/TypeScript**
-- Data/DB: **SQL, MySQL, PostgreSQL, Redis**
-- Web/Mobile: **HTML, CSS, Flutter, Firebase**
-- DevOps: **Docker, Linux, Nginx**
-- Cloud: **AWS, Azure**
-- Office/Docs: **Microsoft 365, Google Workspace**
+- Mobile-first health records app with role-based access control (patient & staff flows)
+- Secure record storage with Firebase backend, cross-platform (iOS & Android)
 
-## Recent learning
+### [Womens-day](https://github.com/Chanikya5793/Womens-day) — Deployed Next.js Web App *(Private)*
+> **Next.js · TypeScript · React · Tailwind CSS**
 
-- Clean data contracts for CV datasets, reproducible training runs, and metric tracking
-- Small-scale infra hardening: compose files, env secrets, .md secrets, proxy rules, health checks
-- Time management and checklists for front desk and event ops
+- Production web application with 9 successful deployments
 
-## Project
+### Self-Hosted Infrastructure *(Private)*
+> **Docker · Nginx · Certbot · Postgres · Redis · n8n · Shell**
 
-- *MEDOTG — Dental Record Management via Mobile App*  
-  Stack: Flutter, Firebase  
-  Role-based access, secure record storage, patient- and staff-facing flows
+- Immich photo management stack with Nginx reverse proxy, SSL via Certbot, Watchtower auto-updates
+- n8n workflow automation stack with Postgres + Redis backend
+- DNS automation scripts for dynamic record updates
 
-- *YOLOv8 Density Estimation*  
-  Built and evaluated models on custom datasets  
-  Tuning: NMS variants, thresholding, and post-processing for crowded scenes  
-  Metrics: precision, recall, F1, accuracy
+### [TeluguChatBot](https://github.com/Chanikya5793/TeluguChatBot) — Voice Assistant
+> **Python · TTS · Speech Processing**
 
-## Values and habits
+- Telugu-language voice assistant with intent detection, built during internship at AIMERS
 
-- Calm, courteous communication and steady follow-through
-- Documentation-first, with precise naming and organized folders
-- Confidentiality and safety awareness in public-facing settings
-- Small iterations, measurable outcomes, tidy handoffs
+### [YOLOv8 Density Estimation](https://github.com/Chanikya5793/meshavatar) — Computer Vision
+> **Python · YOLOv8 · Gradio**
 
-## Fun
+- Custom-trained YOLOv8 models for military density estimation on custom datasets
+- Modified NMS, precision: 0.989 · recall: 0.840 · F1: 0.909 · accuracy: 0.833
+- Deployed with Gradio interface; submitted to conferences
 
-- Call of Duty Mobile
-- Route planning and road trips
-- Cooking experiments and product research
+---
 
-## Get in touch
+## 🛠️ Tech Stack
 
-- Email: chanikya1@icloud.com
-- Location: Maryville, Missouri
+| Area | Technologies |
+|------|-------------|
+| **Mobile** | React Native, Expo, Flutter/Dart, Swift (iOS) |
+| **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML/CSS |
+| **Backend** | Node.js, Firebase (Firestore, Auth, Storage, FCM, Functions) |
+| **Languages** | TypeScript, JavaScript, Python, Java, Swift, Dart, C, C++ |
+| **Databases** | Firestore, PostgreSQL, MySQL, Redis, SQL |
+| **DevOps** | Docker, Nginx, Certbot, Watchtower, Shell scripting |
+| **Cloud** | AWS, Azure, Firebase, Google Cloud |
+| **ML/AI** | YOLOv8, PyTorch, Google Colab, Gradio |
+| **Tools** | Git, VS Code, Xcode, Expo EAS, n8n, WebRTC, LiveKit |
+
+---
+
+## 🎓 Education
+
+- **MS Applied Computer Science** — Northwest Missouri State University *(2025 – Present)*
+- **B.Tech Computer Science** — Velagapudi Ramakrishna Siddhartha Engineering College, JNTU Kakinada *(2025)*
+
+---
+
+## 📜 Certifications
+
+- SQL (Advanced) — HackerRank *(Nov 2025)*
+- Introduction to Cybersecurity — Cisco NetAcad
+- Programming Essentials in Python & C — Cisco NetAcad
+- AWS Cloud Computing (Intro)
+- Introduction to Cybersecurity — Palo Alto Networks
+
+---
+
+## 📬 Get in Touch
+
+- 📧 Email: [chanikya1@icloud.com](mailto:chanikya1@icloud.com)
+- 💼 LinkedIn: [linkedin.com/in/chanikya6163](https://www.linkedin.com/in/chanikya6163)
+- 🌐 Portfolio: [nnv.chanakyachowdary.in](https://nnv.chanakyachowdary.in)
+- 📍 Location: Maryville, Missouri
