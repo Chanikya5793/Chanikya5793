@@ -1,6 +1,7 @@
 # Hi, I'm Chanakya Thotakura 👋
 
 **AI-focused software engineer · MS Applied Computer Science @ Northwest Missouri State University, Maryville, MO**
+
 I build LLM-powered, tool-using systems — RAG pipelines, function-calling agents, and MCP servers — with Python, Gemini, and GCP / Vertex AI, alongside full-stack and mobile apps. Google Cloud certified. Currently seeking **Summer 2026 AI / Software Engineering internships**.
 
 📧 chanikya1@icloud.com &nbsp;|&nbsp; 📍 Maryville, MO &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/chanikya6163) &nbsp;|&nbsp; 🌐 [Visu-Net Live](https://nnv.chanakyachowdary.in)
