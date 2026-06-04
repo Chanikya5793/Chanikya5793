@@ -1,8 +1,7 @@
 # Hi, I'm Chanakya Thotakura 👋
 
-**MS Applied Computer Science @ Northwest Missouri State University, Maryville, MO**
-
-Full-stack developer and builder focused on shipping reliable, well-documented systems. I work across mobile, web, and infrastructure — from React Native apps with real-time features to self-hosted DevOps stacks. Currently seeking **Summer 2026 internships** in software engineering.
+**AI-focused software engineer · MS Applied Computer Science @ Northwest Missouri State University, Maryville, MO**
+I build LLM-powered, tool-using systems — RAG pipelines, function-calling agents, and MCP servers — with Python, Gemini, and GCP / Vertex AI, alongside full-stack and mobile apps. Google Cloud certified. Currently seeking **Summer 2026 AI / Software Engineering internships**.
 
 📧 chanikya1@icloud.com &nbsp;|&nbsp; 📍 Maryville, MO &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/chanikya6163) &nbsp;|&nbsp; 🌐 [Visu-Net Live](https://nnv.chanakyachowdary.in)
 
@@ -42,9 +41,9 @@ Full-stack developer and builder focused on shipping reliable, well-documented s
 - DNS automation scripts for dynamic record updates
 
 ### [TeluguChatBot](https://github.com/Chanikya5793/TeluguChatBot) — Voice Assistant
-> **Python · TTS · Speech Processing**
+> **Python · Gemini · Vertex AI · RAG · MCP · MySQL**
 
-- Telugu-language voice assistant with intent detection, built during internship at AIMERS
+- Telugu voice assistant: Gemini intent-classification routes spoken bus enquiries to live MySQL data, with a RAG knowledge engine, a function-calling agent, and an MCP server on Gemini / Vertex AI; retrieval eval at hit@3 ≈ 90%. Began as my AIMERS internship project.
 
 ### [YOLOv8 Density Estimation](https://github.com/Chanikya5793/meshavatar) — Computer Vision
 > **Python · YOLOv8 · Gradio**
