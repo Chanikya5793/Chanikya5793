@@ -34,11 +34,6 @@ Full-stack developer and builder focused on shipping reliable, well-documented s
 - Mobile-first health records app with role-based access control (patient & staff flows)
 - Secure record storage with Firebase backend, cross-platform (iOS & Android)
 
-### [Womens-day](https://github.com/Chanikya5793/Womens-day) — Deployed Next.js Web App *(Private)*
-> **Next.js · TypeScript · React · Tailwind CSS**
-
-- Production web application with 9 successful deployments
-
 ### Self-Hosted Infrastructure *(Private)*
 > **Docker · Nginx · Certbot · Postgres · Redis · n8n · Shell**
 
