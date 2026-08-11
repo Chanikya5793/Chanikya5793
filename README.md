@@ -1,96 +1,78 @@
-# Hi, I'm Chanakya Thotakura 👋
+# Chanakya Thotakura
 
-**AI-focused software engineer · MS Applied Computer Science @ Northwest Missouri State University, Maryville, MO**
+**Security-focused software engineer | Python automation · phishing detection · E2EE · cloud security**
 
-I build LLM-powered, tool-using systems — RAG pipelines, function-calling agents, and MCP servers — with Python, Gemini, and GCP / Vertex AI, alongside full-stack and mobile apps. Google Cloud certified. Currently seeking **Summer 2026 AI / Software Engineering internships**.
+I build practical security controls across customer-facing applications, cloud infrastructure, and developer workflows. My work includes per-device Signal Protocol encryption for a financial collaboration product, explainable phishing detection for Gmail, least-privilege Firebase authorization, encrypted notification delivery, and API-driven infrastructure automation.
 
-📧 chanikya1@icloud.com &nbsp;|&nbsp; 📍 Maryville, MO &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/chanikya6163) &nbsp;|&nbsp; 🌐 [Visu-Net Live](https://nnv.chanakyachowdary.in)
+I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Science candidate at Northwest Missouri State University (GPA: 3.7/4.0, expected August 2027).
 
----
-
-## 🚀 Featured Projects
-
-### [SplitCircle](https://github.com/Chanikya5793/SplitCircle) — Expense Splitting & Social App
-> **React Native · Expo · TypeScript · Firebase · WebRTC · LiveKit · Google Maps**
-
-- Group expense tracking with equal/custom splits, receipt uploads, and balance settlements
-- Real-time 1:1 and group chat (Firestore listeners, media uploads, offline message queueing)
-- Audio/video calls via WebRTC + LiveKit with Firestore signaling
-- FCM push notifications, offline-first architecture with Firestore persistence
-- Google OAuth + Email/Password auth, dark mode, recurring bills, OCR receipt scanning
-- 191 commits · 15 branches · actively developed
-
-### [Visu-Net](https://github.com/Chanikya5793/visu-net) — Neural Network Visualization Tool 🌐 [Live](https://nnv.chanakyachowdary.in)
-> **React · TypeScript · MIT License**
-
-- Interactive drag-and-drop neural network architecture builder
-- Real-time training visualization, weight distribution, activation patterns, loss landscape
-- Customizable training speed, layer-wise parameter tuning, batch size adjustment
-- 23 commits · deployed to production
-
-### [MEDOTG](https://github.com/Chanikya5793/medotg) — Dental Record Management App
-> **Flutter · Dart · Firebase**
-
-- Mobile-first health records app with role-based access control (patient & staff flows)
-- Secure record storage with Firebase backend, cross-platform (iOS & Android)
-
-### Self-Hosted Infrastructure *(Private)*
-> **Docker · Nginx · Certbot · Postgres · Redis · n8n · Shell**
-
-- Immich photo management stack with Nginx reverse proxy, SSL via Certbot, Watchtower auto-updates
-- n8n workflow automation stack with Postgres + Redis backend
-- DNS automation scripts for dynamic record updates
-
-### [TeluguChatBot](https://github.com/Chanikya5793/TeluguChatBot) — Voice Assistant
-> **Python · Gemini · Vertex AI · RAG · MCP · MySQL**
-
-- Telugu voice assistant: Gemini intent-classification routes spoken bus enquiries to live MySQL data, with a RAG knowledge engine, a function-calling agent, and an MCP server on Gemini / Vertex AI; retrieval eval at hit@3 ≈ 90%. Began as my AIMERS internship project.
-
-### [YOLOv8 Density Estimation](https://github.com/Chanikya5793/meshavatar) — Computer Vision
-> **Python · YOLOv8 · Gradio**
-
-- Custom-trained YOLOv8 models for military density estimation on custom datasets
-- Modified NMS, precision: 0.989 · recall: 0.840 · F1: 0.909 · accuracy: 0.833
-- Deployed with Gradio interface; submitted to conferences
+[LinkedIn](https://www.linkedin.com/in/chanikya6163) · [Email](mailto:chanikya1@icloud.com) · Maryville, Missouri
 
 ---
 
-## 🛠️ Tech Stack
+## Security Engineering Work
 
-| Area | Technologies |
-|------|-------------|
-| **Mobile** | React Native, Expo, Flutter/Dart, Swift (iOS) |
-| **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML/CSS |
-| **Backend** | Node.js, Firebase (Firestore, Auth, Storage, FCM, Functions) |
-| **Languages** | TypeScript, JavaScript, Python, Java, Swift, Dart, C, C++ |
-| **Databases** | Firestore, PostgreSQL, MySQL, Redis, SQL |
-| **DevOps** | Docker, Nginx, Certbot, Watchtower, Shell scripting |
-| **Cloud** | AWS, Azure, Firebase, Google Cloud |
-| **ML/AI** | YOLOv8, PyTorch, Google Colab, Gradio |
-| **Tools** | Git, VS Code, Xcode, Expo EAS, n8n, WebRTC, LiveKit |
+### [ManaSplit / SplitCircle](https://github.com/Chanikya5793/SplitCircle) — Secure financial collaboration
 
----
+**React Native · TypeScript · Firebase · Swift · Kotlin · Signal Protocol**
 
-## 🎓 Education
+- Engineered fail-closed, per-device end-to-end encryption with identity/prekey lifecycle management, session repair, secure key storage, device revocation, and offline encrypted delivery.
+- Designed least-privilege Firebase authorization around authenticated users, group/chat membership, server-owned identity records, and device-scoped claims.
+- Built encrypted push-notification previews, token masking/invalidation, remote notification revocation, and regression coverage for encryption and privacy behavior.
 
-- **MS Applied Computer Science** — Northwest Missouri State University *(2025 – Present)*
-- **B.Tech Computer Science** — Velagapudi Ramakrishna Siddhartha Engineering College, JNTU Kakinada *(2025)*
+### ChEx — Gmail phishing detection extension *(private security prototype)*
 
----
+**JavaScript · Chrome Manifest V3 · Gemini**
 
-## 📜 Certifications
+- Analyzes sender identity, subject, message content, and embedded URLs for urgency/social-engineering language, suspicious TLDs, IP-literal hosts, and credential-themed paths.
+- Produces explainable, severity-rated warnings with asynchronous analysis, scan telemetry, retry handling, and a deterministic heuristic fallback.
+- Uses Gmail-scoped host access and minimal extension permissions. A sanitized public demonstration is in preparation.
 
-- SQL (Advanced) — HackerRank *(Nov 2025)*
-- Introduction to Cybersecurity — Cisco NetAcad
-- Programming Essentials in Python & C — Cisco NetAcad
-- AWS Cloud Computing (Intro)
-- Introduction to Cybersecurity — Palo Alto Networks
+### Security Automation & Infrastructure Lab *(private)*
+
+**Python · Shell · Cloudflare API · Docker · Nginx · TLS**
+
+- Automates public-IP monitoring and multi-record Cloudflare DNS updates through REST APIs with structured logging, response validation, and isolated per-record failure handling.
+- Operates containerized services behind Nginx with automated TLS renewal, PostgreSQL/Redis, and controlled updates.
+- Includes hands-on DNS, WHOIS, traceroute, AES-256, and RSA validation exercises.
 
 ---
 
-## 📬 Get in Touch
+## Additional Engineering Work
 
-- 📧 Email: [chanikya1@icloud.com](mailto:chanikya1@icloud.com)
-- 💼 LinkedIn: [linkedin.com/in/chanikya6163](https://www.linkedin.com/in/chanikya6163)
-- 🌐 Portfolio: [nnv.chanakyachowdary.in](https://nnv.chanakyachowdary.in)
-- 📍 Location: Maryville, Missouri
+### [TeluguChatBot](https://github.com/Chanikya5793/TeluguChatBot) — Voice and retrieval assistant
+
+**Python · Gemini · Vertex AI · RAG · MCP · MySQL**
+
+Telugu voice assistant evolved from my AIMERS internship work. It combines speech recognition, intent classification, structured data access, retrieval, function calling, and explicit failure handling.
+
+### [GDPProject](https://github.com/Chanikya5793/GDPProject) — Northwest student planning platform
+
+Collaborative graduate project focused on translating student-planning requirements into a maintainable application, explicit data flows, and team-owned delivery.
+
+### [Visu-Net](https://github.com/Chanikya5793/visu-net) — Neural-network visualization
+
+Interactive React and TypeScript application for constructing and inspecting neural-network architectures and training behavior.
+
+---
+
+## Technical Focus
+
+| Area | Technologies and practices |
+|---|---|
+| Security engineering | Phishing/email/URL analysis, E2EE, IAM/RBAC, OAuth, device revocation, cryptography, DNS/WHOIS/TLS |
+| Automation | Python, Shell, REST APIs, asynchronous processing, structured logging, testing |
+| Application engineering | TypeScript/JavaScript, React Native, React, Java, Swift, Kotlin, Firebase |
+| Cloud and infrastructure | Google Cloud, Firebase Security Rules, Docker, Nginx, Certbot/Let's Encrypt, Cloudflare, PostgreSQL, Redis |
+
+## Certifications
+
+- Google Cloud Associate Cloud Engineer
+- Cisco Introduction to Cybersecurity
+- Palo Alto Networks Introduction to Cybersecurity
+- Cisco Programming Essentials in Python and C
+- HackerRank SQL (Advanced)
+
+## Current Direction
+
+I am interested in security-engineering roles where I can automate defenses, improve detection quality, and protect customer-facing financial systems. My next focused build is a detection-engineering lab covering event normalization, Sigma-style rules, repeatable test fixtures, and false-positive tuning.
