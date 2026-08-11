@@ -1,8 +1,8 @@
 # Chanakya Thotakura
 
-**Security-focused software engineer | Python automation · phishing detection · E2EE · cloud security**
+**Security-focused software engineer | Python automation · detection engineering · E2EE · cloud security**
 
-I build practical security controls across customer-facing applications, cloud infrastructure, and developer workflows. My work includes per-device Signal Protocol encryption for a financial collaboration product, explainable phishing detection for Gmail, least-privilege Firebase authorization, encrypted notification delivery, and API-driven infrastructure automation.
+I build practical security controls across customer-facing applications, endpoint telemetry, and cloud infrastructure. My work includes a public Python detection-as-code platform, per-device Signal Protocol encryption for a financial collaboration product, least-privilege Firebase authorization, secure notification delivery, and API-driven infrastructure automation.
 
 I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Science candidate at Northwest Missouri State University (GPA: 3.7/4.0, expected August 2027).
 
@@ -12,6 +12,15 @@ I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Scienc
 
 ## Security Engineering Work
 
+### [ControlForge Security](https://github.com/Chanikya5793/controlforge-security) — Endpoint assurance and detection automation
+
+**Python · FastAPI · Sigma-style YAML · SQLite · Docker · GitHub Actions**
+
+- Validates installation, process state, and heartbeat freshness for configurable endpoint agents, with example definitions for CrowdStrike Falcon, Microsoft Defender for Endpoint, and SentinelOne.
+- Evaluates version-controlled detection rules and stateful identity/insider-risk signals for encoded PowerShell, phishing indicators, unauthorized privilege grants, impossible travel, and bulk sensitive-data access.
+- Produces explainable, deduplicated alerts through a CLI and REST API; verified by 29 tests at 93% coverage, strict typing, linting, and security static analysis.
+- Published as an installable wheel and source distribution in the [v0.1.0 release](https://github.com/Chanikya5793/controlforge-security/releases/tag/v0.1.0).
+
 ### [ManaSplit / SplitCircle](https://github.com/Chanikya5793/SplitCircle) — Secure financial collaboration
 
 **React Native · TypeScript · Firebase · Swift · Kotlin · Signal Protocol**
@@ -19,14 +28,6 @@ I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Scienc
 - Engineered fail-closed, per-device end-to-end encryption with identity/prekey lifecycle management, session repair, secure key storage, device revocation, and offline encrypted delivery.
 - Designed least-privilege Firebase authorization around authenticated users, group/chat membership, server-owned identity records, and device-scoped claims.
 - Built encrypted push-notification previews, token masking/invalidation, remote notification revocation, and regression coverage for encryption and privacy behavior.
-
-### ChEx — Gmail phishing detection extension *(private security prototype)*
-
-**JavaScript · Chrome Manifest V3 · Gemini**
-
-- Analyzes sender identity, subject, message content, and embedded URLs for urgency/social-engineering language, suspicious TLDs, IP-literal hosts, and credential-themed paths.
-- Produces explainable, severity-rated warnings with asynchronous analysis, scan telemetry, retry handling, and a deterministic heuristic fallback.
-- Uses Gmail-scoped host access and minimal extension permissions. A sanitized public demonstration is in preparation.
 
 ### Security Automation & Infrastructure Lab *(private)*
 
@@ -39,12 +40,6 @@ I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Scienc
 ---
 
 ## Additional Engineering Work
-
-### [TeluguChatBot](https://github.com/Chanikya5793/TeluguChatBot) — Voice and retrieval assistant
-
-**Python · Gemini · Vertex AI · RAG · MCP · MySQL**
-
-Telugu voice assistant evolved from my AIMERS internship work. It combines speech recognition, intent classification, structured data access, retrieval, function calling, and explicit failure handling.
 
 ### [GDPProject](https://github.com/Chanikya5793/GDPProject) — Northwest student planning platform
 
@@ -60,8 +55,8 @@ Interactive React and TypeScript application for constructing and inspecting neu
 
 | Area | Technologies and practices |
 |---|---|
-| Security engineering | Phishing/email/URL analysis, E2EE, IAM/RBAC, OAuth, device revocation, cryptography, DNS/WHOIS/TLS |
-| Automation | Python, Shell, REST APIs, asynchronous processing, structured logging, testing |
+| Security engineering | Detection-as-code, endpoint assurance, Sigma-style rules, E2EE, IAM/RBAC, device revocation, cryptography, DNS/WHOIS/TLS |
+| Automation | Python, FastAPI, Shell, REST APIs, asynchronous processing, structured logging, testing |
 | Application engineering | TypeScript/JavaScript, React Native, React, Java, Swift, Kotlin, Firebase |
 | Cloud and infrastructure | Google Cloud, Firebase Security Rules, Docker, Nginx, Certbot/Let's Encrypt, Cloudflare, PostgreSQL, Redis |
 
@@ -75,4 +70,4 @@ Interactive React and TypeScript application for constructing and inspecting neu
 
 ## Current Direction
 
-I am interested in security-engineering roles where I can automate defenses, improve detection quality, and protect customer-facing financial systems. My next focused build is a detection-engineering lab covering event normalization, Sigma-style rules, repeatable test fixtures, and false-positive tuning.
+I am interested in security-engineering roles where I can automate defenses, improve detection quality, and protect customer-facing financial systems. I am extending ControlForge toward authenticated vendor adapters, full pySigma interoperability, telemetry metrics, and analyst false-positive feedback loops.
