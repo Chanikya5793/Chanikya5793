@@ -1,10 +1,10 @@
 # Chanakya Thotakura
 
-**Security-focused software engineer | Python automation · detection engineering · E2EE · cloud security**
+**Security Software Engineer | Python automation · detection engineering · E2EE · cloud security**
 
 I build practical security controls across customer-facing applications, endpoint telemetry, and cloud infrastructure. My work includes a public Python detection-as-code platform, per-device Signal Protocol encryption for a financial collaboration product, least-privilege Firebase authorization, secure notification delivery, and API-driven infrastructure automation.
 
-I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Science candidate at Northwest Missouri State University (GPA: 3.7/4.0, expected December 2026).
+I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Science candidate at Northwest Missouri State University (GPA: 3.7/4.0).
 
 [LinkedIn](https://www.linkedin.com/in/chanikya6163) · [Email](mailto:chanikya1@icloud.com) · Maryville, Missouri
 
