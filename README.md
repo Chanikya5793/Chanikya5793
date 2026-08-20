@@ -1,73 +1,57 @@
 # Chanakya Thotakura
 
-**Security Software Engineer | Python automation · detection engineering · E2EE · cloud security**
+**Security Software Engineer | Endpoint detection · dark-web and breach monitoring · cloud security · AI security**
 
-I build practical security controls across customer-facing applications, endpoint telemetry, and cloud infrastructure. My work includes a public Python detection-as-code platform, per-device Signal Protocol encryption for a financial collaboration product, least-privilege Firebase authorization, secure notification delivery, and API-driven infrastructure automation.
+I build security-sensitive products across endpoint telemetry, identity, mobile, backend, and cloud infrastructure. My work combines deterministic detection, privacy-preserving threat intelligence, strong authorization, encryption, and evidence-bounded AI.
 
-I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Science candidate at Northwest Missouri State University (GPA: 3.7/4.0).
+I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Science candidate at Northwest Missouri State University.
 
 [LinkedIn](https://www.linkedin.com/in/chanikya6163) · [Email](mailto:chanikya1@icloud.com) · Maryville, Missouri
 
----
+## Featured Security and AI Engineering
 
-## Security Engineering Work
+### [ControlForge Security](https://github.com/Chanikya5793/controlforge-security) | Endpoint assurance and detection automation
 
-### [ControlForge Security](https://github.com/Chanikya5793/controlforge-security) — Endpoint assurance and detection automation
+**Python · FastAPI · Sigma-style rules · SQLite · Docker · AWS · Cloudflare · GitHub Actions**
 
-**Python · FastAPI · Sigma-style YAML · SQLite · Docker · GitHub Actions**
+- Released v0.1.0 of an open-source Python platform that verifies endpoint controls and evaluates normalized events with version-controlled detection rules.
+- Built explainable detections for encoded PowerShell, phishing, unauthorized privilege grants, impossible travel, and bulk sensitive-data access.
+- Deployed the Dockerized API on AWS, stored signed release artifacts in S3, and published the operator surface through Cloudflare Pages.
 
-- Validates installation, process state, and heartbeat freshness for configurable endpoint agents, with example definitions for CrowdStrike Falcon, Microsoft Defender for Endpoint, and SentinelOne.
-- Evaluates version-controlled detection rules and stateful identity/insider-risk signals for encoded PowerShell, phishing indicators, unauthorized privilege grants, impossible travel, and bulk sensitive-data access.
-- Produces explainable, deduplicated alerts through a CLI and REST API; verified by 29 tests at 93% coverage, strict typing, linting, and security static analysis.
-- Published as an installable wheel and source distribution in the [v0.1.0 release](https://github.com/Chanikya5793/controlforge-security/releases/tag/v0.1.0).
+### [Northwest Student Planner + RAG Copilot](https://github.com/Chanikya5793/GDPProject) | Secure AI planning
 
-### [ManaSplit / SplitCircle](https://github.com/Chanikya5793/SplitCircle) — Secure financial collaboration
+**Python · FastAPI · Firebase · Cloud Run · Vertex AI · Gemini · RAG · MCP · Cloud KMS**
+
+- Shipped web and Expo planner clients with encrypted offline storage, Firebase Auth, Firestore, and a Cloud Run backend.
+- Built a UID-scoped RAG copilot with vector retrieval and six read-only MCP tools.
+- Wrapped per-user encryption keys with Cloud KMS and enforced grounded citations, safe abstention, revision checks, and confirmation-gated writes.
+
+### [ManaSplit](https://github.com/Chanikya5793/SplitCircle) | Secure financial collaboration
 
 **React Native · TypeScript · Firebase · Swift · Kotlin · Signal Protocol**
 
-- Engineered fail-closed, per-device end-to-end encryption with identity/prekey lifecycle management, session repair, secure key storage, device revocation, and offline encrypted delivery.
-- Designed least-privilege Firebase authorization around authenticated users, group/chat membership, server-owned identity records, and device-scoped claims.
-- Built encrypted push-notification previews, token masking/invalidation, remote notification revocation, and regression coverage for encryption and privacy behavior.
+- Built an expense, messaging, and calling app distributed through TestFlight with offline delivery and per-device Signal Protocol sessions.
+- Added opt-in breach, dark-web, infostealer, phishing, and account-takeover monitoring.
+- Combined HIBP, Flare, Web Risk, DNS/RDAP, TLS, and certificate-transparency signals with deterministic scoring and evidence-bounded AI explanations.
 
-### Security Automation & Infrastructure Lab *(private)*
+### AIMERS | AI engineering internship
 
-**Python · Shell · Cloudflare API · Docker · Nginx · TLS**
+**Python · AWS · Speech recognition · Intent classification · Secure database retrieval · Text-to-speech**
 
-- Automates public-IP monitoring and multi-record Cloudflare DNS updates through REST APIs with structured logging, response validation, and isolated per-record failure handling.
-- Operates containerized services behind Nginx with automated TLS renewal, PostgreSQL/Redis, and controlled updates.
-- Includes hands-on DNS, WHOIS, traceroute, AES-256, and RSA validation exercises.
-
----
-
-## Additional Engineering Work
-
-### [GDPProject](https://github.com/Chanikya5793/GDPProject) — Northwest student planning platform
-
-Collaborative graduate project focused on translating student-planning requirements into a maintainable application, explicit data flows, and team-owned delivery.
-
-### [Visu-Net](https://github.com/Chanikya5793/visu-net) — Neural-network visualization
-
-Interactive React and TypeScript application for constructing and inspecting neural-network architectures and training behavior.
-
----
+- Built and deployed an AWS voice-assistant pipeline connecting speech recognition, supervised intent classification, secured database retrieval, and text-to-speech.
+- Hardened the data and model boundaries with least privilege, encrypted transport and storage, managed secrets, parameterized SQL, rate limits, bounded tool access, validation, and safe refusals.
 
 ## Technical Focus
 
-| Area | Technologies and practices |
-|---|---|
-| Security engineering | Detection-as-code, endpoint assurance, Sigma-style rules, E2EE, IAM/RBAC, device revocation, cryptography, DNS/WHOIS/TLS |
-| Automation | Python, FastAPI, Shell, REST APIs, asynchronous processing, structured logging, testing |
-| Application engineering | TypeScript/JavaScript, React Native, React, Java, Swift, Kotlin, Firebase |
-| Cloud and infrastructure | Google Cloud, Firebase Security Rules, Docker, Nginx, Certbot/Let's Encrypt, Cloudflare, PostgreSQL, Redis |
+- **Security:** Detection engineering, endpoint assurance, breach and dark-web monitoring, phishing and URL analysis, IAM, Signal E2EE
+- **AI:** RAG, MCP, Gemini and Vertex AI, embeddings, vector search, prompt-injection defense, structured outputs, evaluation
+- **Cloud and backend:** AWS, GCP, Firebase, Cloudflare, Docker, FastAPI, REST, Cloud KMS, Secret Manager, SQLite
+- **Languages and frameworks:** Python, TypeScript and JavaScript, Swift, Kotlin, SQL, React Native, React, GitHub Actions
 
 ## Certifications
 
 - Google Cloud Associate Cloud Engineer
-- Cisco Introduction to Cybersecurity
-- Palo Alto Networks Introduction to Cybersecurity
-- Cisco Programming Essentials in Python and C
-- HackerRank SQL (Advanced)
-
-## Current Direction
-
-I am interested in security-engineering roles where I can automate defenses, improve detection quality, and protect customer-facing financial systems. I am extending ControlForge toward authenticated vendor adapters, full pySigma interoperability, telemetry metrics, and analyst false-positive feedback loops.
+- Cisco Networking Academy: CyberOps Associate
+- Cisco Networking Academy: Cybersecurity Essentials
+- Cisco Networking Academy: CCNA Enterprise Networking, Security, and Automation
+- Cisco Networking Academy: CCNA Switching, Routing, and Wireless Essentials
