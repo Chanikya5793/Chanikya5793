@@ -6,7 +6,7 @@ I build intelligent systems that are secure by design, combining applied AI, clo
 
 I am a Google Cloud Associate Cloud Engineer and an M.S. Applied Computer Science candidate at Northwest Missouri State University.
 
-[LinkedIn](https://www.linkedin.com/in/chanikya6163) · [Email](mailto:chanikya1@icloud.com) · Maryville, Missouri
+[Portfolio](https://chanakyachowdary.in) · [LinkedIn](https://www.linkedin.com/in/chanikya6163) · [Email](mailto:chanikya1@icloud.com) · Maryville, Missouri
 
 ## Featured AI and Security Engineering
 
